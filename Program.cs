@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CurrentDateAndTime
+namespace SquareRoot
 {
-    class CurrentDateAndTime
+    class Program
     {
         static void Main(string[] args)
         {
-            DateTime currentTime = DateTime.Now;
-            Console.WriteLine("Current date and time: " + currentTime + "\n");
-         
+            double value = 12345;
+            double squareRoot = Math.Sqrt(value);
+            Console.WriteLine("Square root of " + value + " is " + squareRoot + ".");
         }
     }
 }
